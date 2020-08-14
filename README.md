@@ -73,7 +73,7 @@ git checkout -b <local_branch_name>
 ```
 brew install git-lfs
 git lfs install
-git lfs track "yolov3.weights"
+git lfs track "<Large_file_name_if_any>"
 git add .gitattributes
 git add <path_to_the_Large_file_if_any>
 git config --global lfs.contenttype 0
