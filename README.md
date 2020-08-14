@@ -3,7 +3,7 @@ Camera is the second course in the Sensor Fusion ND. The purpose of this repo is
 
 This repo contains lesson-wise exercises and corresponding solutions for Udacity's Sensor Fusion ND. 
 
-## 1. List of Exercises
+## A. List of Exercises
 1. Lesson: Autonomous Vehicles and Computer Vision
    - The OpenCV Library
 2. Lesson: Combining Camera and Lidar
@@ -21,29 +21,29 @@ This repo contains lesson-wise exercises and corresponding solutions for Udacity
    - Overview of Popular Keypoint Detectors
 
 
-## 2. Dependencies for Running Locally
+## B. Dependencies for Running Locally
 1. cmake >= 2.8
-  * All OSes: [click here for installation instructions](https://cmake.org/install/)
+    * All OSes: [click here for installation instructions](https://cmake.org/install/)
 
 
 2. make >= 4.1 (Linux, Mac), 3.81 (Windows)
-  * Linux: make is installed by default on most Linux distros
-  * Mac: [install Xcode command line tools to get make](https://developer.apple.com/xcode/features/)
-  * Windows: [Click here for installation instructions](http://gnuwin32.sourceforge.net/packages/make.htm)
+    * Linux: make is installed by default on most Linux distros
+    * Mac: [install Xcode command line tools to get make](https://developer.apple.com/xcode/features/)
+    * Windows: [Click here for installation instructions](http://gnuwin32.sourceforge.net/packages/make.htm)
 
 
 3. OpenCV >= 4.1
-  * This must be compiled from source using the `-D OPENCV_ENABLE_NONFREE=ON` cmake flag for testing the SIFT and SURF detectors.
-  * The OpenCV 4.1.0 source code can be found [here](https://github.com/opencv/opencv/tree/4.1.0)
+    * This must be compiled from source using the `-D OPENCV_ENABLE_NONFREE=ON` cmake flag for testing the SIFT and SURF detectors.
+    * The OpenCV 4.1.0 source code can be found [here](https://github.com/opencv/opencv/tree/4.1.0)
 
 
 4. gcc/g++ >= 5.4 
-  * Linux: gcc / g++ is installed by default on most Linux distros
-  * Mac: same deal as make - [install Xcode command line tools](https://developer.apple.com/xcode/features/)
-  * Windows: recommend using [MinGW](http://www.mingw.org/)
+    * Linux: gcc / g++ is installed by default on most Linux distros
+    * Mac: same deal as make - [install Xcode command line tools](https://developer.apple.com/xcode/features/)
+    * Windows: recommend using [MinGW](http://www.mingw.org/)
 
 
-## 3. Build Instructions
+## C. Build Instructions
 1. Fork this repo to your Github account
 2. Clone your Github repo.
 3. Go to the top level directory for an exercise, and run the following commands on your terminal:
@@ -55,7 +55,7 @@ make
 ```
 4. Update back the remote (online) repo so that you can use the updated code in the classroom workspace. 
 
-## 4. Pushing Large Files (>100MB)
+## D. Pushing Large Files (>100MB)
 The file `Combining Camera and Lidar/Object Detection with YOLO/detect_objects/dat/yolo/yolov3.weights` is 236.52 MB; this exceeds GitHub's file size limit of 100.00 MB
 
 Github blocks the files that have size>100MB, while pushing them. To push large files, Git provides an option called Git Large File Storage (LFS). See the instructions at [https://git-lfs.github.com/](https://git-lfs.github.com/) to use Git LFS. See [http://git.io/iEPt8g](http://git.io/iEPt8g) for more information.
@@ -86,7 +86,6 @@ git commit -m "your comment"
 ```
 git push --set-upstream origin <local_branch_name>
 ```
- It will create a new branch with same name <local_branch_name> in remote origin.
 
 * Next, create a PR and merge the new branch with the remote master.
 	
