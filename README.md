@@ -3,7 +3,7 @@ Camera is the second course in the Sensor Fusion ND. The purpose of this repo is
 
 This repo contains lesson-wise exercises and corresponding solutions for Udacity's Sensor Fusion ND. 
 
-## A. List of Exercises
+## A. List of Lesson-wise Exercises
 1. Lesson: Autonomous Vehicles and Computer Vision
    - The OpenCV Library
 2. Lesson: Combining Camera and Lidar
