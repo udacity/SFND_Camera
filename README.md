@@ -55,7 +55,7 @@ make
 ```
 4. Update back the remote (online) repo so that you can use the updated code in the classroom workspace. 
 
-## D. Pushing Large Files (>100MB)
+## D. Pushing Large Files (>100MB) [Optional]
 The file `Combining Camera and Lidar/Object Detection with YOLO/detect_objects/dat/yolo/yolov3.weights` is 236.52 MB; this exceeds GitHub's file size limit of 100.00 MB
 
 Github blocks the files that have size>100MB, while pushing them. To push large files, Git provides an option called Git Large File Storage (LFS). See the instructions at [https://git-lfs.github.com/](https://git-lfs.github.com/) to use Git LFS. See [http://git.io/iEPt8g](http://git.io/iEPt8g) for more information.
@@ -75,6 +75,9 @@ brew install git-lfs
 git lfs install
 git lfs track "yolov3.weights"
 git add .gitattributes
+git add <path_to_the_Large_file_if_any>
+git config --global lfs.contenttype 0
+
 ```
 
 * Add the modified files to the index area, and commit the changes
