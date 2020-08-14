@@ -4,21 +4,21 @@ Camera is the second course in the Sensor Fusion ND. The purpose of this repo is
 This repo contains lesson-wise exercises and corresponding solutions for Udacity's Sensor Fusion ND. 
 
 ## 1. List of Exercises
-1. Autonomous Vehicles and Computer Vision
- - The OpenCV Library
-2. Combining Camera and Lidar
- - Creating 3D-Objects
- - Lidar-to-Camera Point Projection
- - Object Detection with YOLO
-3. Engineering a Collision Detection System
- - Estimating TTC with Camera
- - Estimating TTC with Lidar
-4. Tracking Image Features
- - Descriptor Matching
- - Gradient-based vs. Binary Descriptors
- - Haris Corner Detection
- - Intensity Gradient and Filtering
- - Overview of Popular Keypoint Detectors
+1. Lesson: Autonomous Vehicles and Computer Vision
+   - The OpenCV Library
+2. Lesson: Combining Camera and Lidar
+   - Creating 3D-Objects
+   - Lidar-to-Camera Point Projection
+   - Object Detection with YOLO
+3. Lesson: Engineering a Collision Detection System
+   - Estimating TTC with Camera
+   - Estimating TTC with Lidar
+4. Lesson: Tracking Image Features
+   - Descriptor Matching
+   - Gradient-based vs. Binary Descriptors
+   - Haris Corner Detection
+   - Intensity Gradient and Filtering
+   - Overview of Popular Keypoint Detectors
 
 
 ## 2. Dependencies for Running Locally
