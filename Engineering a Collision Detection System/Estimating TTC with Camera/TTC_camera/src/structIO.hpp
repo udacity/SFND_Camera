@@ -1,3 +1,11 @@
+//
+//  structIO.hpp
+//  OpenCVTest
+//
+//  Created by Prof. Dr. Andreas Haja on 24.04.19.
+//  Copyright © 2019 Andreas Haja. All rights reserved.
+//
+
 #ifndef structIO_hpp
 #define structIO_hpp
 
