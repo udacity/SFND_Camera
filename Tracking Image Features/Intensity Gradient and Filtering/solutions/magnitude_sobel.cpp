@@ -47,6 +47,7 @@ void magnitudeSobel()
 
     // show result
     string windowName = "Gaussian Blurring";
+    // string windowName = "Sobel filter magnitude image";
     cv::namedWindow(windowName, 1); // create window
     cv::imshow(windowName, magnitude);
     cv::waitKey(0); // wait for keyboard input before continuing

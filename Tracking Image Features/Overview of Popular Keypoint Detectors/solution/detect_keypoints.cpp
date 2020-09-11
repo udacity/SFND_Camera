@@ -11,7 +11,7 @@ void detKeypoints1()
 {
     // load image from file and convert to grayscale
     cv::Mat imgGray;
-    cv::Mat img = cv::imread("../images/img1.png");
+    cv::Mat img = cv::imread("./images/img1.png");
     cv::cvtColor(img, imgGray, cv::COLOR_BGR2GRAY);
 
     // Shi-Tomasi detector
