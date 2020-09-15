@@ -47,6 +47,8 @@ void projectLidarToCamera2()
 
     cv::Mat X(4,1,cv::DataType<double>::type);
     cv::Mat Y(3,1,cv::DataType<double>::type);
+
+    // TODO
     for(auto it=lidarPoints.begin(); it!=lidarPoints.end(); ++it) {
         // 1. Convert current Lidar point into homogeneous coordinates and store it in the 4D variable X.
 

@@ -55,8 +55,8 @@ void projectLidarToCamera2()
 
             Y = P_rect_00 * R_rect_00 * RT * X;
             cv::Point pt;
-            pt.x = Y.at<double>(0, 0) / Y.at<double>(0, 2);
-            pt.y = Y.at<double>(1, 0) / Y.at<double>(0, 2);
+            pt.x = Y.at<double>(0, 0) / Y.at<double>(2, 0); 
+            pt.y = Y.at<double>(1, 0) / Y.at<double>(2, 0);
 
             float val = it->x;
             float maxVal = 20.0;

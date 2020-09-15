@@ -26,7 +26,8 @@ void showLidarTopview()
         float yw = (*it).y; // world position in m with y facing left from sensor
 
         int y = (-xw * imageSize.height / worldSize.height) + imageSize.height;
-        int x = (-yw * imageSize.height / worldSize.height) + imageSize.width / 2;
+        int x = (-yw * imageSize.width / worldSize.width) + imageSize.width / 2;
+
 
         //cv::circle(topviewImg, cv::Point(x, y), 5, cv::Scalar(0, 0, 255), -1);
         
